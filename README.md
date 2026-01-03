@@ -1,13 +1,10 @@
-# demo-bank-account-service
+# demo-bank-account-service (v2)
 
-Account service managing balances and holds.
+More realistic account service with:
+- Create account
+- Get balance
+- Debit / credit
+- Holds (place/release)
+- Internal service interface + impl, validations, and a small rules engine
 
-Tech:
-- Spring Boot 3
-- Java 21
-- Postgres
-- Flyway
-- REST APIs
-
-## Run
-mvn spring-boot:run
+Spring Boot 3 / Java 21 / Postgres / Flyway
